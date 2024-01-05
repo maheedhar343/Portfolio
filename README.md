@@ -20,4 +20,4 @@ Here are some glimpses of my portfolio:
 - EmailJS API
 ## demo view 
 
-![click here to go to my web](https://himaheedar.vercel.app/)
+![click here to go to my web](https://himaheedar.vercel.app/) # https://himaheedar.vercel.app/
