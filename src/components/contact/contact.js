@@ -22,13 +22,6 @@ export const Contact = () => {
     };
   return (
     <section id='contactpage'>
-        <div id="clients">
-        <h1 className="contacttitle">My Clients</h1>
-        <p className="cliedesc"> I have had the opporrtunity to work a diverse group of companies. Some of the notable companies I have worked with includes</p>
-        <div className="clientimgs">
-            <img src="" alt="" className="clientimg" />
-        </div>
-        </div>
         <div id="contact">
         <h1 className="contacttitle">Contact Me</h1>
         <span className='contactdesc'>Please fill out the form below to discuss any work opporrtunities</span>
@@ -41,7 +34,7 @@ export const Contact = () => {
             <div className="links">
                 <img src={Facebook} alt="Facebook" className="link" />
                 <img src={Instagram} alt="Instagram" className="link" />
-                <img src={Linkedin} alt="Linkedin" className="link" />
+                <img src={Linkedin} alt="Linkedin" className="link rounded-full w-10 h-10" />
                 <img src={Twitter} alt="Twitter" className="link" /> 
             </div>
         </form>

@@ -8,7 +8,7 @@ const skill = () => {
   return (
     <section id='skill'>
         <span className='skiltitle'> What I do ?</span>
-        <span className="skilldesc">I excel in UI/UX web design, harmonizing creativity with user-centric principles. Additionally, I bring expertise in Artificial Intelligence and Machine Learning, leveraging tools like TensorFlow and PyTorch to create intelligent systems. My skill set uniquely combines aesthetic design with innovative AI/ML solutions, offering a comprehensive approach to digital excellence.</span>
+        <span className="skilldesc">I excel in UI/UX web design, harmonizing creativity with user-centric principles. Additionally, I bring expertise in Artificial Intelligence and Machine Learning, leveraging tools like TensorFlow and PyTorch to create intelligent systems. My skill set uniquely combines aesthetic design with innovative AI/ML solutions.</span>
         <div className="skillbar">
         <img className='barimg' src={uiux} alt="uiux design" />
             <div className="skilltext">
@@ -22,7 +22,7 @@ const skill = () => {
             <div className="skilltext">
                 <h2>web development</h2>
                 <p>Developing and managing the server-side logic, databases, and application integration for a seamless web experience.
-( Python,Node.js, Java , Express MySQL, MongoDB), and proficiency in API development and integration.</p>
+( Node.js, Express MySQL, MongoDB,Python), and proficiency in API development and integration.</p>
             </div>
         </div>
         <div className="skillbar">

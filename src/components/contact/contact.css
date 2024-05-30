@@ -8,6 +8,7 @@
  flex-direction: column;
  align-items: center;
  justify-content: center;
+ margin-bottom: 50px;
 }
 .contacttitle{
     font-size: 3rem;
@@ -18,13 +19,13 @@
     font-size: 1rem;
 }
 .clientimgs{
+    height: 35%;
     margin: 1rem 0;
     display: flex;
 }
 .clientimg{
     object-fit: cover;
-    width: 23%;
-    min-width: 9rem;
+    width: 200px;
     margin: auto;
     padding: 0.25rem;
 
@@ -58,7 +59,7 @@
     background: rgb(40,40,40 );
 }
 .sendbtn{
-    background: white;
+    background: rgb(122, 234, 216);
     border: none;
     border-radius: 0.5rem;
     margin: 2rem;
