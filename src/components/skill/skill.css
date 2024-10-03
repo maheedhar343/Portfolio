@@ -20,19 +20,20 @@
 .skilldesc{
     font-weight: 500;
     font-size: 1rem;
-    max-width: 51rem;
+    max-width: 55rem;
+    margin-bottom: 1rem;
     padding: 0 2rem;
 }
 .skillbar{
-    margin: 1.5rem;
+    margin-bottom: 2rem;
     width: 100vw;
     max-width: 80%;
     text-align: left;
     display: flex;
-    margin: 1rem;
-    padding: 1.5rem;
+    padding: 1rem;
     border-radius: 0.5rem;
     background: rgb(50,50,50);
+    box-shadow: 0 .5rem .5rem rgba(250, 250, 250, 1);
 }
 .barimg{
     object-fit: cover;
