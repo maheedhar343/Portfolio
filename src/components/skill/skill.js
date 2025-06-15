@@ -8,34 +8,33 @@ const skill = () => {
   return (
     <section id='skill'>
         <span className='skiltitle'> What I do ?</span>
-        <span className="skilldesc">I excel in UI/UX web design, harmonizing creativity with user-centric principles. Additionally, I bring expertise in Artificial Intelligence and Machine Learning, leveraging tools like TensorFlow and PyTorch to create intelligent systems. My skill set uniquely combines aesthetic design with innovative AI/ML solutions.</span>
+        <span className="skilldesc">I excel in UI/UX web design, blending creativity with user-centric principles, and bring expertise in AI/ML using TensorFlow and PyTorch for innovative solutions. As a transitioning freelancer after Cybersmithsecure, I’m eager to merge my design and tech skills in new projects.</span>
         <div className="skillbar">
         <img className='barimg' src={uiux} alt="uiux design" />
             <div className="skilltext">
                 <h2>UI/UX Design</h2>
-                <p>Designing intuitive and visually appealing digital interfaces to enhance user experience.
- (HTML, CSS, JavaScript).</p>
+                <p>Creating engaging, user-friendly digital interfaces that prioritize accessibility and visual harmony.  </p>
+                <p>Interface prototyping, responsive layouts, interactive design</p>
             </div>
         </div>
         <div className="skillbar">
         <img className='barimg'src={webdev} alt="web development" />
             <div className="skilltext">
                 <h2>web development</h2>
-                <p>Developing and managing the server-side logic, databases, and application integration for a seamless web experience.
-( Node.js, Express MySQL, MongoDB,Python), and proficiency in API development and integration.</p>
+                <p>Building dynamic, high-performance web interfaces with a strong emphasis on collaborative integration. </p> 
+                <p>Component-based architecture, API synchronization, cross-browser compatibility</p>
             </div>
         </div>
         <div className="skillbar">
         <img className='barimg' src={ai_ml} alt="ai_ml_web" />
             <div className="skilltext">
-                <h2>AI_ML</h2>
-                <p>Implementing artificial intelligence and machine learning solutions to analyze and derive insights from data for informed decision-making.
-Technologies: Python, TensorFlow, PyTorch, scikit-learn, natural language processing (NLP), computer vision, and familiarity with data preprocessing and feature engineering techniques.</p>
+                <h2>Automation Scripts & Data Analysis</h2>
+                <p>Designing automated workflows to enhance productivity and streamline data handling, analytical frameworks to uncover meaningful patterns and support informed decision-making. </p>
+            <p> Script development, process optimization, data interpretation, dataset refinement</p>
             </div>
         </div>
-        
-        
-       
+
+
     </section>
   )
 }

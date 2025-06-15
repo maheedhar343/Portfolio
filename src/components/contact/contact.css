@@ -1,5 +1,5 @@
 #contactpage{
- min-height: calc(100vh - 4rem);
+ min-height: calc(100vh);
  width: 100vw;
  max-width: 60rem;
  margin: 0 auto;
@@ -74,4 +74,13 @@
     height: 3rem;
     width: 3rem;
     margin: 0 0.75rem;
+}
+
+.clientimgs img{
+    width: 100%;
+    height: 170px;
+    background: rgb(40,40,40);
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px rgba(5, 229, 42, 0.5);
+    transition: transform 0.3s ease;
 }

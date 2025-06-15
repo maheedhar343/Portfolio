@@ -33,21 +33,35 @@
     font-weight: 100;
 }
 #name{
-    color: rgb(242, 255, 0);
+    display: inline-block;
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    font-size: 2.6rem;
+    width: 0;
+    animation: typing 1s forwards;
 }
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 75%; }
+}
+
 .para{
     
     font-size: medium;
     font-weight: 100;
 }
 .btn{
-    background-color: aqua;
-    border-radius: 20px;
-    font-size: 20px;
+    background-color: greenyellow;
+    border-radius: 25px;
+    font-size: 15px;
     display: flex;
-    padding: 1rem .5rem;
-    margin: 1rem;
+    padding: .5rem;
+    margin: 2rem;
     box-shadow: 0 1rem 1rem rgba(23, 250, 42, 0.4);
+    position: absolute;
+    right: 0;
 }
 .btn:hover{
     background: #8ff64a;
@@ -65,4 +79,78 @@
     .hello{
         font-size: 4.5vw;
     }
+    #name{
+        font-size: 6vw;
+    }
+    .para{
+        font-size: 3vw;
+    }
+    .btn{
+        font-size: 3vw;
+        padding: 0.5rem 1rem;
+        right: 0;
+    }
+    .btnimg{
+        height: 3vw;
+    }
+    #intro{
+        height: 100%;
+        width: 100%;
+    }
+    .par{
+        flex-direction: column;
+        align-items: center;
+    }
+    .bg{
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+    }
+    .introcontent{
+        position: relative;
+        top: 0;
+        right: 0;
+        text-align: center;
+    }
+    #name{
+        width: 100%;
+        animation: typing 1s forwards;
+    }
+    .btn{
+        position: relative;
+        right: 0;
+        margin: 1rem auto;
+    }
+    .btnimg{
+        height: 4vw;
+    }
+    .btn:hover{
+        background: #8ff64a;
+    }
+    .hello{
+        font-size: 5vw;
+    }
+    .para{
+        font-size: 3vw;
+    }
+    .btn:hover{
+        background: #8ff64a;
+    }
+    .btnimg{
+        height: 4vw;
+    }
+    .btn{
+        position: relative;
+        right: 0;
+        margin: 1rem auto;
+    }
+    .btn:hover{
+        background: #8ff64a;
+    }
+    .btnimg{
+        height: 4vw;
+    }
+    
+
 }
